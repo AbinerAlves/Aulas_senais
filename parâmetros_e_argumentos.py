@@ -1,5 +1,5 @@
 #Parâmetros com valor padrão (default)
-def saudacao(nome, mensagem = "Bem vindo!"):
+def saudacao(nome, mensagem = "Seja bem viadão!"):
     print(f"Olá, {nome}! {mensagem}")
 nome = str(input("Digite seu nome: "))
 saudacao(nome)
